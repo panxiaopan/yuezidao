@@ -1,0 +1,90 @@
+ #app {
+   font-family: 'Avenir', Helvetica, Arial, sans-serif;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+   height: 100%;
+ }
+
+ html,
+ body {
+   margin: 0;
+   padding: 0;
+   height: 100%;
+ }
+
+ /* 当前目录 */
+
+ .CurrentPage {
+   background: #f2f2f2;
+   font-size: 16px;
+   height: 40px;
+   line-height: 40px;
+   padding-left: 10px;
+   margin-bottom: 20px;
+ }
+
+ /* 分页 */
+
+ .myPagination {
+   text-align: center;
+   margin-top: 40px;
+ }
+
+ /* 表格 */
+
+ .cell {
+   text-align: center
+ }
+
+ /* 添加时候的粗体显示 */
+
+ .BlogInfo {
+   height: 40px;
+   font-weight: 900;
+   font-size: 25px;
+   border-bottom: 1px solid;
+   margin-bottom: 20px;
+ }
+
+ .text-center {
+   text-align: center;
+ }
+
+ .border-right {
+   border-right: 1px solid #f3f3f3;
+ }
+
+ .not-right-border .el-input__inner {
+   border-radius: 4px 0 0 4px;
+   border-right: none;
+ }
+
+ .el-form--inline .not-right-border {
+   margin-right: 0;
+ }
+
+ .not-left-border {
+   margin-right: 0;
+ }
+
+ .not-left-border .el-input__inner {
+   border-radius: 0 4px 4px 0;
+ }
+
+ .not-left-border.not-right-border .el-input__inner {
+   border-radius: 0;
+ }
+
+ /* button 颜色 */
+ .el-button--primary:focus, .el-button--primary:hover {
+    background: #12D3DD;
+    border-color: #12D3DD;
+ }
+ /*图片描述*/
+ .picturedescription{
+  display: inline-block;
+  text-align: center;
+  width: 180px; 
+ 
+} 
+

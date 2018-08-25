@@ -1,0 +1,125 @@
+// 搜索按钮
+.search-btn {
+    background-color: #41bcc8;
+    border: none;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    outline: none;
+    border-radius: 4px;
+    cursor: pointer;
+    .search-btn-icon {
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        background: url('../../assets/img/search1.png') no-repeat center;
+    }
+}
+.el-table thead th {
+    background-color: #f5f5f5;
+}
+// 表格中图标
+.my-icon {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+//详情的图标
+.my-iconpan{
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    cursor: pointer;
+}
+
+
+// 解冻状态
+.my-icon.kaisuo {
+    background: url('../../assets/img/kaisuo.png');
+    margin-left: 0;
+}
+// 冻结状态
+.my-icon.dongjie {
+    background: url('../../assets/img/dongjie.png');
+    margin-left: 0;
+}
+// 编辑状态
+.my-icon.edit {
+    background: url('../../assets/img/edit.png');
+
+}
+// 删除状态
+.my-icon.delete {
+    background: url('../../assets/img/delete-icon.png')
+}
+//详情的按钮
+.detailspic{
+    background: url('../../assets/img/deails.png')
+}
+
+
+
+// 分页 当前页 按钮颜色
+.myPagination .el-pagination.is-background .el-pager li:not(.disabled).active {
+   // background-color: #f4f4f5;
+      color: #fff;
+    //color: #333;
+}
+
+// form-item 不要margin-bottom
+.form-not-margin-bottom {
+    .el-form-item {
+        margin-bottom: 0;
+    }
+}
+// 上下架两个按钮
+.stand-up-btn.el-button--mini {
+    padding: 2px 15px;
+}
+.stand-up-btn.el-button + .stand-up-btn.el-button {
+    margin-left: 0;
+    border-left: #41bcc8 1px solid ;
+}
+
+// 表格操作按钮
+.nurse-table {
+    .el-button + .el-button {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+}
+//切换
+.el-radio-button el-radio-button--mini is-active{
+    background: #41bcc8;
+    color: #fff;
+}
+
+// textarea placeholder样式
+.goods-desc::-webkit-input-placeholder{
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: #C0C4CC;
+}
+.goods-desc::-moz-placeholder{
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: #C0C4CC;
+}
+.goods-desc::-ms-input-placeholder{
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: #C0C4CC;
+}
+
+//uedito 去掉边框
+#ueditor {
+  border: 0;
+}
+
+#righticon {
+  width: 1100px;
+  min-height: 625px;
+  border: 0;
+}
